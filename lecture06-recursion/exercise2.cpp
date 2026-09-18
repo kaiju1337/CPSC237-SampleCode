@@ -4,7 +4,12 @@ using namespace std;
 void printDown(int n)
 {
     //to do
-    cout << n << endl;
+    if (n == 5){
+        cout << (n, n + 1, n + 2);
+    } else {
+        cout << false;
+    }
+   
 }
 
 int main()
